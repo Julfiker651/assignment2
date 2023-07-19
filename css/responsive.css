@@ -1,0 +1,213 @@
+/* sm` applies to x-small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 576px) { 
+    /* header section */
+    .container{
+        width: 100%;
+    }
+    .container.container-wapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .logo-image {
+        text-align: center;
+        margin: auto;
+        font-size: 24px;
+        padding-bottom: 25px;
+    }
+    ul.menu1 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu {
+        flex-direction: column;
+    }
+    
+    button.btn {
+        width: fit-content;
+        margin: auto;
+    }
+    header.bg-color {
+        box-shadow: none;
+    }
+    /* like section css */
+    .wapper-like {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .play-right {
+        order: 1;
+    }
+    
+    .play-left {
+        order: 2;
+    }
+    .mainttops {
+        display: flex!important;
+        flex-direction: column!important;
+        gap: 0px!important;
+        align-items: center!important;
+    }
+    
+    .tablet {
+        width: fit-content!important;
+        display: flex!important;
+        flex-direction: revert!important;
+    }
+    
+    
+    .mainttops.gramde-r {
+        text-align: center;
+    }
+    
+    button.btn2 .gramde-btn {
+        margin: 20px 0px;
+    }
+    button.btn2.\.gramde-btn {
+        margin: 20px 0px;
+    }
+    .ttt {
+        margin-left: -52px;
+    }
+    .div-gramder {
+        background-color: none;
+    }
+    /* grammer sections */
+    .grid-div {
+        grid-template-columns: repeat(1,1fr)!important;
+        padding: 48px;
+    }
+    /* anytimes for website */
+    .anytimes.container {
+        grid-template-columns: repeat(1,1fr);
+        gap: 0;
+    }
+    
+    .anytimes-left {
+        order: 1;
+        width: 400px;
+    }
+    
+    .anytimes-left {
+        margin: auto;
+    }
+    
+    .anytimes-left img {
+        width: 400px;
+    }
+    
+    .anytimes-small img {
+        width: 200px;
+    }
+    
+    .anytimes-small {
+        bottom: -33px;
+        right: 24px;
+    }
+    
+    .anytimes-right {
+        text-align: center;
+    }
+ }
+
+ /* `md` applies to small devices (landscape phones, less than 768px) */
+
+
+ @media screen and (max-width:768px) { 
+    .container{
+        width: 100%;
+    }
+    .container.container-wapper {
+        flex-direction: column;
+    }
+    
+    .logo-image {
+        margin: auto;
+        padding: 10px 0px;
+    }
+    
+    .menu {
+        margin: auto;
+    }
+    header.bg-color {
+        box-shadow: none;
+    }
+    /* like  */
+    .wapper-like {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .play-right {
+        order: 1;
+    }
+    
+    .play-left {
+        order: 2;
+    }
+    .wapper-like {
+        padding: 16px 0px;
+    }
+
+    .mainttops {
+        flex-direction: row;
+        gap: 31px;
+        padding: 20px 0px;
+    }
+    
+    .tablet {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+    .mainttops.gramde-r {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    button.btn2.\.gramde-btn {
+        margin: 2px 0px;
+    }    
+    .mainttops.gramde-r {
+        gap: 0px;
+    }
+    .div-gramder {
+        background-color: none;
+    }
+    /* grammes sections */
+    .grid-div {
+        grid-template-columns: repeat(2,1fr);
+        padding: 50px;
+    }
+    /* any times */
+    .anytimes.container {
+        grid-template-columns: repeat(1,1fr);
+        gap: 0;
+    }
+    
+    .anytimes-left {
+        order: 1;
+        width: 400px;
+    }
+    
+    .anytimes-left {
+        margin: auto;
+    }
+    
+    
+    .anytimes-left img {
+        width: 314px;
+    }
+    
+    .anytimes-small img {
+        width: 138px;
+    }
+    
+    .anytimes-small {
+        bottom: -33px;
+        right: 24px;
+    }
+    .anytimes-right {
+        text-align: center;
+      }
+
+ }
